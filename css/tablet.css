@@ -1,0 +1,40 @@
+/* tablet */
+@media only screen and (max-width: 992px) {
+  :root {
+    --bgc: green;
+  }
+  .navbar-info {
+    display: none;
+  }
+  #navbar-avt {
+    display: none;
+  }
+  #about .container h1 {
+    text-wrap: nowrap;
+  }
+  #about .container {
+    grid-gap: 30px;
+  }
+  #target {
+    text-align: left;
+  }
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+
+  .cert-item {
+    flex-direction: column;
+  }
+  .project-item img {
+    width: 100%;
+  }
+  .project-work {
+    display: flex;
+  }
+  table,
+  tr,
+  td {
+    padding: 8px;
+  }
+}
